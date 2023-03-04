@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visualization Dashbord</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Web-site navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div>
+            <a id="logo" class="navbar-brand" href="index.html">Latitude</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink"
+                        role="button" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="temperature.html">Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="comparisons.html">Comparison </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data_page.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container ">
+        <section class="row">
+            <div class="col-md-8 visual-container">
+                <div class="description-content">
+                    <h1 class="description-header visualization-font-color">Cloudiness</h1>
+                    <hr>
+                    <img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" width="100%">
+                    <p>We can observe the correlation between latitude and cloudiness in both hemispheres. However, the stronger correlation is in south hemisphere.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="visual-container">
+                    <h2 class="visualization-font-color text-center">Visualizations </h2>
+                    <hr class="my-4">
+
+                    <div class="images justify-content-evenly">
+                        <a href="temperature.html"><img src="Resources/assets/images/Fig1.png"
+                                alt="latitude vs Max Temp" class="viz-image"></a>
+                        <a href="cloudiness.html"><img src="Resources/assets/images/Fig2.png"
+                                alt="latitude vs Cloudiness" class="viz-image"></a>
+                        <a href="wind_speed.html"><img src="Resources/assets/images/Fig3.png"
+                                alt="latitude vs Wind_speed" class="viz-image"></a>
+                        <a href="humidity.html"><img src="Resources/assets/images/Fig4.png" alt="latitude vs Humidity"
+                                class="viz-image"></a>
+                    </div>
+                </div>
+            </section>
+            </div>
+
+
+
+
+
+
+                <!-- Footer-->
+
+    <footer class="page-footer font-small blue">

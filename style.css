@@ -1,0 +1,54 @@
+/* Change background color*/
+body {
+        background-color: #FFFFF;
+    }
+/* Change font color and styling on pages */
+  .visualization-font-color{
+    color:#8AAAE5;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }  
+
+  .viz-image{
+    width: 140px;
+    height: 140px;
+    
+  }
+  
+  .visual-container{
+    width: 100%;
+    padding: 30px 30px 30px;
+    background-color: #FFFFF;
+    margin-top: 30px;
+
+  }
+  
+  .content{
+    width: 100%;
+    padding: 30px 30px 30px;
+    background-color: #FFFFF;
+    margin-top: 30px;
+
+  }
+
+  #logo{
+    /*background: #4aaaa5;*/
+    height: 100%;
+    font-size: 34px;
+    font-weight: bold;
+    color: #8AAAE5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  /* Data_page.html */
+
+table th{
+    text-align: center;
+    font-size: 18px;
+
+  }
+
+table {
+    min-width:fit-content;
+  }
+  
