@@ -1,6 +1,6 @@
 /* Change background color*/
 body {
-        background-color: #FFFFF;
+        background-color: #FFFFFf;
     }
 /* Change font color and styling on pages */
   .visualization-font-color{
@@ -54,6 +54,8 @@ table th{
      z-index: 1; 
   }
 
+   /* comparison.html */
+
   .description-header2{
     text-align: center;
     font-size: 30px;
@@ -74,8 +76,14 @@ table th{
     border-style: solid; 
   }
 
-  #footer{
-      position: relative;
+  .footer {
+      position: fixed;
+      left: 0;
       bottom: 0;
+      width: 100%;
+      color: #666666;
       text-align: center;
-  }
+      background-color: #ffffff;
+
+    }
+
