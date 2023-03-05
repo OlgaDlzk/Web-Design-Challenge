@@ -6,6 +6,7 @@ Data is more powerful when we share it with others! Using previous project code 
 
 HTML </br>
 CSS </br>
+Python </br>
 JavaScript </br>
 Bootstrap 4 </br>
 Font Awesome 5 </br>
