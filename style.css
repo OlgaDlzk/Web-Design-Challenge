@@ -2,12 +2,21 @@
 body {
         background-color: #FFFFFf;
     }
+
 /* Change font color and styling on pages */
   .visualization-font-color{
     color:#8AAAE5;
     font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
-  }  
+  }
+  
+  .text-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .text-pos{
+    text-align: center;
+  }
 
   .viz-image{
     width: 140px;
@@ -84,6 +93,7 @@ table th{
       color: #666666;
       text-align: center;
       background-color: #ffffff;
+      font-family: Georgia, 'Times New Roman', Times, serif;
 
     }
 
